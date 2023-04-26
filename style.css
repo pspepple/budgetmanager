@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+}
+/*Basic layout*/
+.container{
+    background-color: grey;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+}
+.header{
+    padding: 10px 10px 0 10px;
+    margin: 5px 0;
+    border-bottom:1px solid #F4FEFF;
+}
+.header h2{
+    margin-bottom: 0;
+}
+.budget, .expense{
+     padding: 0 15px;
+     margin: 20px 0;
+}
+.results{
+    display: flex;
+    padding: 10px;
+}
+.results p{
+    width: 30%;
+    margin: 0 auto;
+}
+p#remark{
+    display: none;
+    margin-left: 10px;
+}
+#log{
+    background-color: grey;
+    padding-bottom: 10px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+}
+#log .header{
+    display: flex;
+    border-bottom:1px solid #F4FEFF;
+}
+#log .header h3{
+    width: 30%;
+    margin: 0 auto;
+}
